@@ -13,30 +13,6 @@ include 'header.php';
             return $postTitles;
         }
     ?>
-    <?php
-        function getPostDetailsFromDatabase() {
-            //TODO in Module 4
-            //get this data from a database instead of hardcoding it
-            $postDetails = array('title' => 'Blog Post 1',
-                                'content' => 'My first blog post',
-                                'date' => '09/26/2020',
-                                'author' => 'Andrew Russett');
-
-            return $postDetails;
-        }
-    ?>
-
-    <?php
-        //post details containt all the data to generate the blog from
-        $postDetails = getPostDetailsFromDatabase();
-    ?>
-    <h1> <?php echo $postDetails["title"]; ?> </h1>
-    <div> <?php echo $postDetails["author"]; ?> </div>
-    <div> <?php echo $postDetails["date"]; ?> </div>
-    <div> <?php echo $postDetails["content"]; ?> </div>
-
-
-
             <ul>
                 <?php
                     $postTitles = getPostTitlesFromDatabase();
