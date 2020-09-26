@@ -1,17 +1,9 @@
+<?php
+include'header.php';
+?>
+
 <!DOCTYPE html>
 <html>
-    <div id="header">
-        <header>
-            <h1>Andrew's Blog CMS</h1>
-            <link rel="stylesheet" type="text/css" href="format.css" />
-        </header>
-    
-        <nav>
-            <a href="index.php">Home</a>
-            <a href="post-submission.php">Blog Post</a>
-        </nav>  
-    </div>
-
     <div></div>
     <main>
         <form action="/action_page.php">
@@ -29,11 +21,8 @@
             <input type="submit" value="Submit">
         </form>
     </main>
-
-    <div id="footer">
-        <footer>
-            <h3>Andrew Russett 2020</h3>
-        </footer>
-    </div>
-
 </html>
+
+<?php
+include'footer.php';
+?>

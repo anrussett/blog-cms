@@ -1,21 +1,9 @@
+<?php
+include 'header.php'; 
+?>
+
 <!DOCTYPE html>
     <html>
-
-    <div id="header">
-       
-        <header>
-            <h1>Andrew's Blog CMS</h1>
-            <link rel="stylesheet" type="text/css" href="format.css" />
-        </header>
-
-        <nav>
-            <a href="index.php">Home</a>
-            <a href="post-submission.php">Blog Post</a>
-        </nav>  
-
-    </div>
-       
-
         <main>
             <h2>Post One</h2>
                 <div>
@@ -28,11 +16,8 @@
                     <h4>Author: Andrew Russett</h4>
                 </div>
         </main>
-
-        <div id="footer">
-            <footer>
-                <h3>Andrew Russett 2020</h3>
-            </footer>
-        </div>
-
     </html>
+    
+<?php
+include 'footer.php';
+?>

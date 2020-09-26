@@ -9,7 +9,7 @@ include 'header.php';
                 <a href="post.php">Post One</a>
             </li>
         </main>
+    <html>
 <?php
 include 'footer.php';
 ?>
-    <html>
