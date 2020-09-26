@@ -23,9 +23,9 @@ include 'header.php';
         $postDetails = getPostDetailsFromDatabase();
     ?>
     <h1> <?php echo $postDetails["title"]; ?> </h1>
-    <div> <?php echo $postDetails["author"]; ?> </div>
     <div> <?php echo $postDetails["date"]; ?> </div>
     <div> <?php echo $postDetails["content"]; ?> </div>
+    <div> <?php echo $postDetails["author"]; ?> </div>
         </main>
     </html>
 
