@@ -1,9 +1,9 @@
+<?php
+include 'header.php'; 
+?>
+
 <!DOCTYPE html>
     <html>
-        <div id="header">
-            include 'header.php';
-        </div><!--close for header--> 
-
         <main>
             <li>
                 <a href="post.php">Post One</a>
