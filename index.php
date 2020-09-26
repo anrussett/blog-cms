@@ -1,6 +1,5 @@
 <?php
 include 'header.php'; 
-include 'footer.php';
 ?>
 
 <!DOCTYPE html>
@@ -10,4 +9,7 @@ include 'footer.php';
                 <a href="post.php">Post One</a>
             </li>
         </main>
+<?php
+include 'footer.php';
+?>
     <html>
