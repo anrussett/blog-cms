@@ -18,7 +18,7 @@ include 'header.php';
             //TODO in Module 4
             //get this data from a database instead of hardcoding it
             $postDetails = array('title' => 'Blog Post 1',
-                                'content' => 'My first blog post'
+                                'content' => 'My first blog post',
                                 'date' => '09/26/2020',
                                 'author' => 'Andrew Russett');
 
