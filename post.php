@@ -23,15 +23,6 @@ include 'header.php';
             return $postDetails;
         }
     ?>
-
-    <?php
-        //post details containt all the data to generate the blog from
-        $postDetails = getPostDetailsFromDatabase();
-    ?>
-    <h1> <?php echo $postDetails["title"]; ?> </h1>
-    <div> <?php echo $postDetails["date"]; ?> </div>
-    <div> <?php echo $postDetails["content"]; ?> </div>
-    <div> <?php echo $postDetails["author"]; ?> </div>
         </main>
     </html>
 
