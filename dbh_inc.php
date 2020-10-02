@@ -1,8 +1,4 @@
 <?php
-include_once'db_connect.php';
-?>
-
-<?php
 $dbServername = "localhost";
 $dbUsername = "anrussett"; //This is the same username as phpMyAdmin
 $dbPassword = "AdvancedWebProjects"; //This is the same password as phpMyAdmin
