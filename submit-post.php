@@ -8,9 +8,7 @@
 
    // insert the data with the sql query
    include_once 'db_connect.php';
-   $sql="INSERT INTO posts (title, content, author, date) VALUES ('" .     
-
-       $title . "','" .  $content . "','" . $author . "','" . $date . "')";
+   $sql="INSERT INTO posts (title, content, author, date) VALUES ('" . $title . "','" .  $content . "','" . $author . "','" . $date . "')";
    $result = mysqli_query($conn, $sql);
    
 
