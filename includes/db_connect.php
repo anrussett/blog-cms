@@ -1,7 +1,7 @@
 <?php
-$dbServer="localhost";
-$dbUsername="root@localhost"; //This is the same username as phpMyAdmin
-$dbPassword=""; //This is the same password as phpMyAdmin
+$dbServer="localhost:8888";
+$dbUsername="root"; //This is the same username as phpMyAdmin
+$dbPassword="root"; //This is the same password as phpMyAdmin
 $dbName="blog_cms";
 
 //create connection
