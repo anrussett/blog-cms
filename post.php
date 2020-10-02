@@ -2,16 +2,12 @@
 include 'header.php'; 
 ?>
 
-<?php
-include_once 'db_connect.php';
-?>
-
 <!DOCTYPE html>
     <html>
         <main>
 
         <?php
-
+            
             function getPostDetailsFromDatabase() {
                 // Get the post title
                 $postTitle = rawurldecode($_GET["title"]);
@@ -27,18 +23,21 @@ include_once 'db_connect.php';
                 $postDetails = mysqli_fetch_assoc($result);
                 return $postDetails;
             }
-        ?>
-
-        <?php
-                //post details contains all the data to generate the blog from
-                $postDetails = getPostDetailsFromDatabase();
             
         ?>
-       
-        <H1> <?php echo $postDetails["title"]; ?> </h1> 
-        <div> <?php echo $postDetails["author"]; ?> </div>
-        <div> <?php echo $postDetails["date"]; ?> </div>
-        <div> <?php echo $postDetails["content"]; ?> </div>
+
+
+
+            <?php
+                $postDetails = getPostDetailsFromDatabase();
+            ?>
+            <h1> <?php echo $postDetails["title"]; ?> </h1>
+            <div> <?php echo $postDetails["author"]; ?> </div>
+            <div> <?php echo $postDetails["date"]; ?> </div>
+            <div> <?php echo $postDetails["content"]; ?> </div>
+            
+
+            
 
 
         </main>
