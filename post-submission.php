@@ -6,7 +6,7 @@ include'header.php';
 <html>
     <div></div>
     <main>
-        <form action="/action_page.php">
+        <form action="submit-post.php" method="POST">
             <label for="Title">Title: </label>
             <input type="text" id="Title" name="Title"><br>
             <div></div>
