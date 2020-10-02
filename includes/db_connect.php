@@ -1,5 +1,5 @@
 <?php
-$dbServer="localhost:8888";
+$dbServer="localhost";
 $dbUsername="root"; //This is the same username as phpMyAdmin
 $dbPassword="root"; //This is the same password as phpMyAdmin
 $dbName="blog_cms";
