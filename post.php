@@ -13,7 +13,7 @@ include 'header.php';
 
 
             // Get the post that matches the postTitle
-            include_once 'db_connect.php';
+            include_once 'includes/db_connect.php';
             $sql = "SELECT * FROM posts WHERE title='" . $postTitle . "'";
             $result = mysqli_query($conn, $sql);
 
