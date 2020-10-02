@@ -1,5 +1,6 @@
 <?php
 include'header.php';
+include_once 'db_connect.php';
 ?>
 
 <!DOCTYPE html>
@@ -18,7 +19,7 @@ include'header.php';
             <div></div>
             <textarea id="Blog Post" name="Blog Post" rows="8" cols="50"> </textarea>
             <br><br>
-            <input type="submit" value="Submit">
+            <button type="submit" name="Submit">Submit</button>
         </form>
     </main>
 </html>
