@@ -29,6 +29,17 @@ include_once 'db_connect.php';
             }
         ?>
 
+        <?php
+            //post details contains all the data to generate the blog from
+            $postDetails = getPostDetailsFromDatabase();
+        ?>
+
+        <h1> <?php echo $postDetails["title"]; ?> </h1> 
+        <div> <?php echo $postDetails["author"]; ?> </div>
+        <div> <?php echo $postDetails["date"]; ?> </div>
+        <div> <?php echo $postDetails["content"]; ?> </div>
+
+
         </main>
     </html>
 
