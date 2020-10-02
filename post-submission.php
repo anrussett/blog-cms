@@ -1,6 +1,9 @@
 <?php
-include'header.php';
 include_once 'db_connect.php';
+?>
+
+<?php
+include'header.php';
 ?>
 
 <!DOCTYPE html>
