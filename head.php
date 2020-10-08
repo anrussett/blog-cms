@@ -9,6 +9,8 @@
                 crossorigin="anonymous">
             </script>
 
+            <script src="js/script.js"></script>
+
             <script src="hello.js"></script>
             
         </head>

@@ -11,8 +11,7 @@ include 'header.php';
     </head>
     <main>
 
-    <button onclick="revealMessage()">Hello</button>
-    <p id="hiddenMessage" style="display:none">Hi there!</p>
+    <button id="hello">Hello</button>
 
     <?php
 
