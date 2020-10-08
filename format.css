@@ -21,3 +21,7 @@
     box-sizing: border-box;
     border-radius: 10px;
     }
+
+#editor{
+    height: 300px;
+}
