@@ -1,12 +1,13 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <title>Andrew's Blog</title>
         <?php
         include'header.php';
         include 'head.php';
         ?>
     </head>
-    <main>
+    <body>
         
         <button id="hello">Hello</button>
 
@@ -42,7 +43,7 @@
                 ?>
                 </ul>
             </div>
-    </main>
+    </body>
 </html>
 
 <?php
