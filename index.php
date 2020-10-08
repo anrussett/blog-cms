@@ -2,9 +2,7 @@
 include 'header.php'; 
 ?>
 
-<script>
-    alert("Hello World");
-</script>
+<script src="hello.js"></script>
 
 <!DOCTYPE html>
 <html>
