@@ -4,6 +4,11 @@ include 'header.php';
 
 <!DOCTYPE html>
     <html>
+    <head>
+        <?php
+        include 'head.php'
+        ?>
+    </head>
         <main>
 
         <?php

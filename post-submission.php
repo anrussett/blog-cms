@@ -9,6 +9,11 @@ include'header.php';
 <!DOCTYPE html>
 <html>
 <br>
+    <head>
+        <?php
+        include 'head.php'
+        ?>
+    </head>
     <main>
         <form action="submit-post.php" method="POST">
             <label for="title">Title: </label>
