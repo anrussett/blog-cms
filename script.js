@@ -1,3 +1,5 @@
-$("#hello").click(function() {
-    alert("Hi there!");
+$(document).ready(function() {
+    $("#hello").click(function() {
+        alert("Hi there!");
+    })
 })
