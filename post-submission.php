@@ -16,19 +16,11 @@ include'header.php';
     </head>
     <main>
         <form action="submit-post.php" method="POST">
-            <label for="title">Title: </label>
-            <input type="text" name="title"><br>
-            <br>
-            <label for="author">Author: </label>
-            <input type="text" name="author"><br>
-            <br>
-            <label for="date">Date: </label>
-            <input type="text" name="date"><br>
-            <br>
-            <label for="content">Blog Post: </label>
-            <textarea name="content" rows="8" cols="50"> </textarea>
-            <br>
-            <button type="submit" name="Submit">Submit</button>
+            <input type="text" id="title" name="title" placeholder="Title"></input>
+            <input type="text" id="author" name="author" placeholder="Author"></input>
+            <input type="date" id="date" name="date" placeholder="Date"></input>
+            <div id="editor"></div>
+            <button id="submit">Submit</input>  
         </form>
     </main>
 </html>
