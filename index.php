@@ -10,19 +10,6 @@ include 'header.php';
         ?>
     </head>
     <main>
-        <div id="sortable-blog-list">
-            <input class="search" placeholder="Search" />
-            <button class="sort" data-sort="title">Sort</button>
-            <ul class="list">
-                <?php
-                $postTitles = getPostTitlesFromDatabase();
-                foreach($postTitles as $postTitle) {
-                    echo "<li><a href='post.php?title=" . $postTitle 
-                    . "' class='title'>" . $postTitle . "</a></li>";
-                    }
-                ?>
-            </ul>
-        </div>
         
         <button id="hello">Hello</button>
 
@@ -45,15 +32,19 @@ include 'header.php';
             return $postTitles;
         }
     ?>
-            <ul>
-                <?php
-                    $postTitles = getPostTitlesFromDatabase();
 
-                    foreach($postTitles as $postTitle) {
-                        echo "<li><a href='post.php?title=" . $postTitle . "'>" . $postTitle . "</a></li>";
-                    }
+            <div id="sortable-blog-list">
+                <input class="search" placeholder="Search" />
+                <button class="sort" data-sort="title">Sort</button>
+                <ul class="list">
+                <?php
+                 $postTitles = getPostTitlesFromDatabase();
+                 foreach($postTitles as $postTitle) {
+                    echo "<li><a href='post.php?title=" . $postTitle . "' class='title'>" . $postTitle . "</a></li>";
+                     }
                 ?>
-            </ul>
+                </ul>
+            </div>
     </main>
 </html>
 
