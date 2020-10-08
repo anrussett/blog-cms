@@ -2,6 +2,10 @@
 include 'header.php'; 
 ?>
 
+<script>
+    alert("Hello World");
+</script>
+
 <!DOCTYPE html>
 <html>
     <main>

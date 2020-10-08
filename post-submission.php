@@ -8,20 +8,21 @@ include'header.php';
 
 <!DOCTYPE html>
 <html>
-    <div></div>
+<br>
     <main>
         <form action="submit-post.php" method="POST">
-            <label for="Title">Title: </label>
-            <input type="text" id="Title" name="Title"><br>
-            <div></div>
-            <label for="Author">Author: </label>
-            <input type="text" id="Author" name="Author"><br>
-            <div></div>
-            <label for="Date">Date: </label>
-            <input type="text" id="Date" name="Date"><br>
-            <div></div>
-            <textarea id="Blog Post" name="Blog Post" rows="8" cols="50"> </textarea>
-            <br><br>
+            <label for="title">Title: </label>
+            <input type="text" name="title"><br>
+            <br>
+            <label for="author">Author: </label>
+            <input type="text" name="author"><br>
+            <br>
+            <label for="date">Date: </label>
+            <input type="text" name="date"><br>
+            <br>
+            <label for="content">Blog Post: </label>
+            <textarea name="content" rows="8" cols="50"> </textarea>
+            <br>
             <button type="submit" name="Submit">Submit</button>
         </form>
     </main>
