@@ -10,9 +10,9 @@
     </head>
 
     <body>
-        
+        <br>
         <button id="hello">Hello</button>
-
+        <br>
         <?php
 
             function getPostTitlesFromDatabase() {
