@@ -1,1 +1,3 @@
-alert("Hello World");
+function revealMessage() {
+    document.getElementById("hiddenMessage").style.display = 'block';
+}

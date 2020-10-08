@@ -2,11 +2,18 @@
 include 'header.php'; 
 ?>
 
-<script src="hello.js"></script>
-
 <!DOCTYPE html>
 <html>
+    <head>
+        <?php
+        include 'head.php'
+        ?>
+    </head>
     <main>
+
+    <button onclick="revealMessage()">Hello</button>
+    <p id="hiddenMessage" style="display:none">Hi there!</p>
+
     <?php
 
         function getPostTitlesFromDatabase() {
