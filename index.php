@@ -16,18 +16,18 @@
             <input class="search" placeholder="Search"/>
             <button class="sort" data-sort="title">Sort</button>
             <ul class="list">
-            <?php
-                $postTitles = getPostTitlesFromDatabase();
-                foreach($postTitles as $postTitle) {
-                echo "<li><a href='post.php?title=" . $postTitle . "' class='title'>" . $postTitle . "</a></li>";
-                    }
-            ?>
-            <script>
-            var options = {
+                <?php
+                    $postTitles = getPostTitlesFromDatabase();
+                    foreach($postTitles as $postTitle) {
+                    echo "<li><a href='post.php?title=" . $postTitle . "' class='title'>" . $postTitle . "</a></li>";
+                        }
+                ?>
+                <script> 
+                var options = {
                 valueNames: ['title']
-            };
-            new List('sortable-blog-list', options);
-            </script>
+                };
+                new List('sortable-blog-list', options);
+                </script>
             </ul>
         </div>
         <?php
