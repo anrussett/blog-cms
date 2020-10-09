@@ -15,7 +15,7 @@ include'header.php';
         ?>
     </head>
     <main>
-    <link rel="stylesheet" type="text/css" href="format.css" />
+    <link rel="stylesheet" type="text/css" href="format.css" />    
         <form action="submit-post.php" method="POST">
             <input type="text" id="title" name="title" placeholder="Title"></input>
             <input type="text" id="author" name="author" placeholder="Author"></input>

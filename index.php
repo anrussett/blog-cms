@@ -4,7 +4,7 @@
     <head>
         <title>Andrew's Blog</title>
         <?php
-        include'header.php';
+        include'header.php'; 
         include 'head.php';
         ?>
     </head>
